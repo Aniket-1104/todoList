@@ -11,7 +11,7 @@ app.use(express.static("public"));
 
 //creating todoList database
 mongoose.connect(
-  "mongodb+srv://aniketk1104:akumar110402@cluster0.yhq8w1u.mongodb.net/todolistDB",
+  "mongodb://localhost:27017/todolistDB",
   { useNewUrlParser: true }
 );
 
